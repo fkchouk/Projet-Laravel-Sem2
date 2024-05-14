@@ -44,7 +44,7 @@
         
             </main>
             
-            @yield('footer')
+            @include('frontend.footer')
        
            
     </body>

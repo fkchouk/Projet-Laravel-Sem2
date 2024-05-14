@@ -5,7 +5,7 @@
     <div class="containernav">
         <a class="navbar-brand" href="index.html">
             
-            <img src="..../frontend/images/logo.png" style="    width: 158px;
+            <img src="../frontend/logo.png" style="    width: 158px;
             
             padding-left: 20px;
             padding-top: 10px;
