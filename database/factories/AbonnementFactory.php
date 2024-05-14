@@ -17,7 +17,16 @@ class AbonnementFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'nom' => $this->faker->lastName,
+            'prenom' => $this->faker->firstName,
+            'email' => $this->faker->unique()->safeEmail,
+            'phone' => $this->faker->numerify('########'),
+            'lieu' => $this->faker->city,
+            'datedebut' => $this->faker->date(),
+            'datefin' => $this->faker->date(),
+            'garedepart' => $this->faker->city,
+            'garearrive' => $this->faker->city,
+            'image' => $this->faker->imageUrl(660, 360, true), 
         ];
     }
 }
