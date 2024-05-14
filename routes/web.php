@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AbonnementController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,5 @@ Route::get('/', function () {
 Route::get('/front', function () {
     return view('frontend.passager');
 });
+
+Route::resource('Abonnements',AbonnementController::class);
