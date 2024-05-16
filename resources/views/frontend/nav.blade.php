@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-lg-5 me-lg-auto" style="    padding-right: 224px;">
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" routerLink="/passager/start">Home</a>
+                    <a class="nav-link click-scroll" routerLink="/passager/start">Ho me</a>
                 </li>
 
                 <li class="nav-item">
