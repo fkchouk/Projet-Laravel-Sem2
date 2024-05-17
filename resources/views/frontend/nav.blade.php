@@ -39,7 +39,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" routerLink="/passager/contact" >Contact</a>
+                    <a class="nav-link click-scroll" routerLink="/passager/contact" >Con tact</a>
                 </li>
 
                 <li class="nav-item dropdown">
