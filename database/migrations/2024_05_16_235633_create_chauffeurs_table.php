@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('chauffeurs', function (Blueprint $table) {
             $table->id();
+            $table->string('ncin',8);
+            $table->string('nom',10);
+            $table->string('prenom',10);
+            $table->float('salaire', 8, 2);
+            $table->text('adresse');
             $table->timestamps();
         });
     }
