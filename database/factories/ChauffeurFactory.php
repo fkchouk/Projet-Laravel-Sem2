@@ -18,10 +18,10 @@ class ChauffeurFactory extends Factory
     {
         return [
            'ncin' =>fake()->ean8(),
-           'nom'=> faker()->word(),
-           'prenom'=> faker()->word(),
-           'salaire'=>faker()->randomFloat(2),
-           'adresse'=>faker()->paragraph()
+           'nom'=> fake()->word(),
+           'prenom'=> fake()->word(),
+           'salaire'=>fake()->randomFloat(2),
+           'adresse'=>fake()->paragraph()
            
         ];
     }
