@@ -16,14 +16,14 @@
             <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-lg-5 me-lg-auto" style="    padding-right: 224px;">
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" routerLink="/passager/start">Ho me</a>
+                    <a class="nav-link click-scroll" routerLink="/passager/start">Home</a>
                 </li>
 
                 <li class="nav-item">
